@@ -1,0 +1,42 @@
+.quastion {
+    /* background-color: rgb(14, 14, 14); */
+    width: 100%;
+    border-radius: 10px;
+    /* box-shadow:  7px 7px 10px #ffffff41, 
+    -5px -5px 10px #000000; */
+}
+.quastion-body{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 40px;
+    border-radius: 10px;
+    
+}
+.item-body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;     
+}
+.option{
+    background-color: #cccccc;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 22px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.option:hover{
+    background: linear-gradient(160deg, #ffd900, #e0a016);
+}
+
+.correct{
+    background:  linear-gradient(160deg, #00ff40, #adffc2);
+}
+.incorrect{
+    background: linear-gradient(160deg, #ff0000, #ff9c9c);
+    color: black;
+}

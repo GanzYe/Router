@@ -1,0 +1,29 @@
+.quastionCount{
+    width: 100%;
+    font-size: 25px;
+}
+
+.confirm-btn{
+    background: linear-gradient(160deg, #ffbb00, #e0a016);
+    color: black;
+}
+
+.username{
+    color: black;
+}
+.incorrectName{
+    background: linear-gradient(160deg, #ff6565, #ffdbdb);
+    color: black;
+}
+
+
+.result-block{
+    width: 100%;
+}
+
+.result-block-content{
+    font-size: 36px;
+}
+.correctCount{
+    visibility: hidden;
+}
